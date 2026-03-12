@@ -1,44 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Z1N Arquiteturas</title>
-
 <style>
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
+html,body{
+margin:0;
+padding:0;
+height:100%;
+overflow:hidden;
 }
-
-.video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+iframe{
+position:fixed;
+top:0;
+left:0;
+width:100vw;
+height:100vh;
+border:none;
 }
 </style>
 </head>
 
-<body>
+<body onclick="document.documentElement.requestFullscreen()">
 
-<div class="video-container">
-<iframe
-src="https://www.youtube.com/embed/PWmj0nWNyr4?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1&fs=1"
-allow="autoplay; fullscreen"
-allowfullscreen>
-</iframe>
-</div>
+<iframe src="https://z1n-arq.my.canva.site/z1n-arquiteturas"></iframe>
 
 </body>
 </html>
